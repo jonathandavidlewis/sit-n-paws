@@ -2,7 +2,9 @@
   "name": "sit-n-paws",
   "version": "1.0.0",
   "description": "Putting a woof over your head",
-  "engines": {},
+  "engines": {
+    "node": "8.6.0"
+  },
   "main": "server.js",
   "scripts": {
     "test": "mocha test/**/*Spec.js* --require ./tools/test-helper.js -r mock-local-storage --recursive --compilers js:babel-register --exit",
